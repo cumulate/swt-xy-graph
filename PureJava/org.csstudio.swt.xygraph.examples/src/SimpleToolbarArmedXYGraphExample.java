@@ -14,7 +14,10 @@ import org.eclipse.draw2d.LightweightSystem;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
-
+/**
+ * @author Xihui Chen
+ *
+ */
 public class SimpleToolbarArmedXYGraphExample {
 	public static void main(String[] args) {
 		final Shell shell = new Shell();

@@ -11,7 +11,10 @@ import java.util.List;
 
 import org.eclipse.draw2d.Figure;
 
-
+/**
+ * @author Xihui Chen
+ *
+ */
 public class MeterTest extends AbstractRoundRampedWidgetTest{
 
 	@Override

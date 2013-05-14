@@ -1,4 +1,3 @@
-package org.csstudio.swt.xygraph.exampleview;
 /*******************************************************************************
  * Copyright (c) 2010 Oak Ridge National Laboratory.
  * All rights reserved. This program and the accompanying materials
@@ -6,6 +5,8 @@ package org.csstudio.swt.xygraph.exampleview;
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  ******************************************************************************/
+
+package org.csstudio.swt.xygraph.exampleview;
 import org.csstudio.swt.xygraph.dataprovider.CircularBufferDataProvider;
 import org.csstudio.swt.xygraph.figures.ToolbarArmedXYGraph;
 import org.csstudio.swt.xygraph.figures.Trace;
@@ -16,6 +17,10 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
 
+/**
+ * @author Xihui Chen
+ *
+ */
 public class PureJavaExample {
 	public static void main(String[] args) {
 		final Shell shell = new Shell();

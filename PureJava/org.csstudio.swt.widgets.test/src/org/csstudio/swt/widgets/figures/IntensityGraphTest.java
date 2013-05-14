@@ -14,7 +14,10 @@ import org.csstudio.swt.widgets.datadefinition.ColorMap.PredefinedColorMap;
 import org.eclipse.draw2d.Figure;
 import org.eclipse.swt.widgets.Display;
 
-
+/**
+ * @author Xihui Chen
+ *
+ */
 public class IntensityGraphTest extends AbstractWidgetTest{
 
 	public static int count=0;

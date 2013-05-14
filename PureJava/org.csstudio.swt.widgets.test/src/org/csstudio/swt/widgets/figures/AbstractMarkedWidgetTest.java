@@ -8,6 +8,10 @@
 package org.csstudio.swt.widgets.figures;
 
 
+/**
+ * @author Xihui Chen
+ *
+ */
 public abstract class AbstractMarkedWidgetTest extends AbstractScaledWidgetTest {
 
 	@Override

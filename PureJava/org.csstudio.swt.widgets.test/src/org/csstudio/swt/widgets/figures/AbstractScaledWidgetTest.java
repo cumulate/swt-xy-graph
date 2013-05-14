@@ -13,6 +13,10 @@ import java.util.List;
 import org.csstudio.swt.xygraph.linearscale.Range;
 
 
+/**
+ * @author Xihui Chen
+ *
+ */
 public abstract class AbstractScaledWidgetTest extends AbstractWidgetTest {
 
 	@Override

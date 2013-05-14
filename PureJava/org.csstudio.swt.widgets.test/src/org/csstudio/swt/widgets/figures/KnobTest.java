@@ -9,7 +9,10 @@ package org.csstudio.swt.widgets.figures;
 import org.csstudio.swt.widgets.datadefinition.IManualValueChangeListener;
 import org.eclipse.draw2d.Figure;
 
-
+/**
+ * @author Xihui Chen
+ *
+ */
 public class KnobTest extends AbstractRoundRampedWidgetTest{
 
 	@Override

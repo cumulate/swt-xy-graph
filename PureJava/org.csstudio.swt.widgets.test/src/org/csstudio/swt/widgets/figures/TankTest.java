@@ -8,7 +8,10 @@
 package org.csstudio.swt.widgets.figures;
 import org.eclipse.draw2d.Figure;
 
-
+/**
+ * @author Xihui Chen
+ *
+ */
 public class TankTest extends AbstractMarkedWidgetTest{
 
 	@Override
