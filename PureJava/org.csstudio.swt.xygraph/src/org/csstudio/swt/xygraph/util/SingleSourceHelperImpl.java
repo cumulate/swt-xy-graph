@@ -94,5 +94,10 @@ public class SingleSourceHelperImpl extends SingleSourceHelper {
 		String path = dialog.open();
 		return path;
 	}
+	
+	@Override
+	protected GC internalGetImageGC(Image image) {
+		return new GC(image);
+	}
 
 }

@@ -20,7 +20,6 @@
             allowMultiple="true"
             category="org.csstudio.swt.xygraph.exampleView.category"
             class="org.csstudio.swt.xygraph.exampleview.WidgetsExampleView"
-            icon="icons/gauge.png"
             id="org.csstudio.swt.xygraph.exampleView.view1"
             name="Widgets Sample View"
             restorable="true">

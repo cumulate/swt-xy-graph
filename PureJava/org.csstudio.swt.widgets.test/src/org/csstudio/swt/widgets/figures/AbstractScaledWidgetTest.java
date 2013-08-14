@@ -34,7 +34,8 @@ public abstract class AbstractScaledWidgetTest extends AbstractWidgetTest {
 				"majorTickMarkStepHint",
 				"showMinorTicks",
 				"showScale",
-				"logScale"
+				"logScale",
+				"valueLabelFormat"
 		};
 		return concatenateStringArrays(superPropList.toArray(new String[]{}), scaleProps);
 	}

@@ -10,6 +10,7 @@ package org.csstudio.swt.xygraph.util;
 import org.csstudio.swt.xygraph.figures.XYGraph;
 import org.eclipse.swt.graphics.Cursor;
 import org.eclipse.swt.graphics.Font;
+import org.eclipse.swt.graphics.GC;
 import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.graphics.ImageData;
 import org.eclipse.swt.graphics.RGB;
@@ -41,6 +42,14 @@ public abstract class SingleSourceHelper {
 		return IMPL.getInternalImageSavePath();
 	}
 	
+	
+	public static GC getImageGC(final Image image){
+		if(IMPL == null)
+			return null;
+		return IMPL.internalGetImageGC(image);
+	}
+	
+	protected abstract GC internalGetImageGC(final Image image);
 
 	protected abstract String getInternalImageSavePath();
 

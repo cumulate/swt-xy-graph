@@ -25,7 +25,7 @@ public class CircularBuffer<T> extends AbstractCollection<T> {
 	
 	public CircularBuffer(int bufferSize) {
 		if(bufferSize <=0)
-			throw new IllegalArgumentException("Buffer size must be larger than zero.");
+			throw new IllegalArgumentException("Buffer size must be greater than zero.");
 		this.setBufferSize(bufferSize, true);
 	}
 	

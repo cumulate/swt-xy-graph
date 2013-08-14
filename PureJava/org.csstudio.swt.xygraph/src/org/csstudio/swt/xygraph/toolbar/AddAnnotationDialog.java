@@ -35,7 +35,7 @@ public class AddAnnotationDialog extends Dialog {
 		// Unique annotation names help when trying to edit/delete annotations.
 		// Default name: Annotation 1, Annotation 2, ...
 		final int num = xyGraph.getPlotArea().getAnnotationList().size();
-        final String name =Messages.Annotation_DefaultNameFmt + (num+1);
+        final String name = Messages.Annotation_DefaultNameFmt + (num+1);
         
         // If there are traces, default to 'snapping' to the first trace
         final Annotation annotation;

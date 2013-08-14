@@ -101,8 +101,7 @@ public class LinearScale extends AbstractScale {
      * @return the margin
      */
     public int getMargin() {
-		if(isDirty())
-			calcMargin();
+    	updateTick();
 		return margin;
 	}
 	/**
@@ -335,11 +334,13 @@ public class LinearScale extends AbstractScale {
     @Override
     public void updateTick() {
     	if(isDirty()){
+    		calcMargin();
+    		setDirty(false);
 	    	length = isHorizontal() ? 
 	    			getClientArea().width: getClientArea().height;    		
-	    	if(length > 2*getMargin())
-	    		tickLabels.update(length-2*getMargin());    
-	    	setDirty(false);
+	    	if(length > 2*margin)
+	    		tickLabels.update(length-2*margin);    
+	    	
     	}    	
     }	
 

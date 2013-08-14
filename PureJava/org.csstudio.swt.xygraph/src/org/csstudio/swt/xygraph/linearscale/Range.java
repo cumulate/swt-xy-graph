@@ -26,20 +26,10 @@ public class Range {
      * @param end
      *            the end value of range
      */
-    public Range(final double start, final double end) {
-    	//if(end == start)
-    	//	end = start + 1;
-//        if (start <= end)
-//        {
-            lower = start;
-            upper = end;
-//        }
-//        else
-//        {
-//            lower = end;
-//            upper = start;
-//        }
-    }
+	public Range(final double start, final double end) {
+		lower = start;
+		upper = end;
+	}
 
     /**If a value in the range or not.
      * @param value
